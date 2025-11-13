@@ -28,6 +28,8 @@ def get_saliency_feature(frame_data=None, current_yaw=None, current_pitch=None):
 
 
 if __name__ == "__main__":
-    # Example quick test
+    # Example quick tests
     f = get_saliency_feature(current_yaw=7, current_pitch=3)
+    print("Dummy saliency feature:", f)
+    f = get_saliency_feature()
     print("Dummy saliency feature:", f)
